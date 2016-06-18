@@ -1,28 +1,14 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# GitFree CRoRDC Community Project
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Guidelines for collaboration
+**Please follow the following guidelines if you want to collaborate.**
+- If you want to help with an issue, assign yourself to it. There is no limit to the number of assignees. 
+- communicate with each other about ideas and progress,
+- share ideas and help one another,
+- team up to solve issues,
+
+- If you want to open an issue, please be specific about it. 
+  - Is it a bug? If so, please try to explained how it happened, and under what circumstances. 
+  - Is there a feature you'd like added to the project? Please try to explain the benefits of it.
+  - Is there something that needs improvement? What are your suggestions for improvement?
