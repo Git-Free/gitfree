@@ -3,7 +3,12 @@ source 'https://rubygems.org'
 #=======================================
 # DEV. GEMS
 #=======================================
-
+  # auth
+  gem 'devise', '~> 4.1', '>= 4.1.1'
+  
+  # front-end
+  gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+  gem 'devise-bootstrap-views', '~> 0.0.8'
 #=======================================
 # DEFAULT GEMS
 #=======================================
