@@ -5,11 +5,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
     
   protected
-  
-  def after_sign_in_path_for(users)
-   '/'
-  end
-  
   def configure_permitted_parameters
     devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:username, :email, :password, # ADD first_name AND last_name when they will be added in the db.
       :password_confirmation, :remember_me, :avatar, :avatar_cache) }
