@@ -35,6 +35,7 @@ end
 
 # Only prod. gems
 group :production do
+  # Heroku db
   gem 'pg'
   gem 'rails_12factor'
 end
