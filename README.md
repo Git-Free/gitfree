@@ -90,58 +90,57 @@ We will be using following gems - If you find another alternative feel free to l
   -Unicorn *Required
 
 ##Development Gems
-    -foreman  - Manage Procfile-based applications
-    -Brakeman - A static analysis security vulnerability scanner for Ruby on Rails applications http://brakemanscanner.org/
 
-    -letter_opener_web - A web interface for browsing Ruby on Rails sent emails
+  - foreman - Manage Procfile-based applications
+  - Brakeman - A static analysis security vulnerability scanner for Ruby on Rails applications http://brakemanscanner.org/
 
-    -quiet_assets - Mutes assets pipeline log messages.
+  - letter_opener_web - A web interface for browsing Ruby on Rails sent emails
 
-    -Rerun -  Restarts an app when the filesystem changes. Uses growl and FSEventStream if on OS X. - optional requires discussion
+  - quiet_assets - Mutes assets pipeline log messages.
 
-    -Rblineprof - rblineprof shows you lines of code that are slow.
+  - Rerun -  Restarts an app when the filesystem changes. Uses growl and FSEventStream if on OS X. - optional requires discussion
 
-    -Web-console - Rails Console on the Browser.
+  - Rblineprof - rblineprof shows you lines of code that are slow.
 
-    -Sdoc - Standalone sdoc generator http://api.rubyonrails.org/
-    -Thin - https://rubygems.org/gems/thin - A thin and fast web server – we will use this instead of webrick I will explain the reasons at this point
+  - Web-console - Rails Console on the Browser.
 
-    -awesome_print - Pretty print your Ruby objects with style -- in full color and with proper indentation 
+  - Sdoc - Standalone sdoc generator http://api.rubyonrails.org/
+  - Thin - https://rubygems.org/gems/thin - A thin and fast web server – we will use this instead of webrick I will explain the reasons at this point
 
-    -database_cleaner - Strategies for cleaning databases in Ruby. Can be used to ensure a clean state for testing
-    -factory_girl_rails - fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+  - awesome_print - Pretty print your Ruby objects with style -- in full color and with proper indentation 
 
-    -Capybara - Acceptance test framework for web applications http://jnicklas.github.com/capybara/
-    -capybara-screenshot - Automatically save screen shots when a Capybara scenario fails
-    -Poltergeist - A PhantomJS driver for Capybara
-    -teaspoon - Teaspoon: Javascript test runner for Rails. Run tests in the browser or headless with PhantomJS, Selenium WebDriver, Capybara Webkit or with BrowserStack.
-    -Spring-commands-rspec - This gem implements the rspec command for Spring.
-    -Spring-commands-teaspoon - This gem implements the `teaspoon` command for Spring.
-    -Rubocop - A Ruby static code analyzer, based on the community Ruby style guide. http://rubocop.readthedocs.io
-    -rubocop-rspec - Code style checking for RSpec files
-    -scss-lint - Configurable tool for writing clean and consistent SCSS
+  - database_cleaner - Strategies for cleaning databases in Ruby. Can be used to ensure a clean state for testing
+  - factory_girl_rails - fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
 
-    -coveralls -  https://coveralls.io/ - showing which parts of your code aren’t covered by your test suite. Free for open source -repos. Pro accounts for private repos. Instant sign up through GitHub, Bitbucket, and Gitlab.
-    -Simplecov - Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
-    -flog - https://rubygems.org/gems/flog - Flog shows you the most torturous code you wrote. The more painful the code, the higher the score.
-    -Flay – https://rubygems.org/gems/flay- Flay analyzes code for structural similarities. Differences in literal values, variable, class, method names, whitespace, programming style, braces vs do/end, etc are all ignored. Making this totally rad.
-    -Bundler-audit - Patch-level verification for Bundler
-    -benchmark-ips - Provides iteration per second benchmarking for Ruby
+  - Capybara - Acceptance test framework for web applications http://jnicklas.github.com/capybara/
+  - capybara-screenshot - Automatically save screen shots when a Capybara scenario fails
+  - Poltergeist - A PhantomJS driver for Capybara
+  - teaspoon - Teaspoon: Javascript test runner for Rails. Run tests in the browser or headless with PhantomJS, Selenium WebDriver, Capybara Webkit or with BrowserStack.
+  - Spring-commands-rspec - This gem implements the rspec command for Spring.
+  - Spring-commands-teaspoon - This gem implements the `teaspoon` command for Spring.
+  - Rubocop - A Ruby static code analyzer, based on the community Ruby style guide. http://rubocop.readthedocs.io
+  - rubocop-rspec - Code style checking for RSpec files
+  - scss-lint - Configurable tool for writing clean and consistent SCSS
 
-    -LicenseFinder - LicenseFinder works with your package managers to find dependencies, detect the licenses of the packages in them, compare those licenses against a user-defined whitelist, and give you an actionable exception report.
+  - coveralls -  https://coveralls.io/ - showing which parts of your code aren’t covered by your test suite. Free for open source -repos. Pro accounts for private repos. Instant sign up through GitHub, Bitbucket, and Gitlab.
+  - Simplecov - Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
+  - flog - https://rubygems.org/gems/flog - Flog shows you the most torturous code you wrote. The more painful the code, the higher the score.
+  - Flay – https://rubygems.org/gems/flay- Flay analyzes code for structural similarities. Differences in literal values, variable, class, method names, whitespace, programming style, braces vs do/end, etc are all ignored. Making this totally rad.
+  - Bundler-audit - Patch-level verification for Bundler
+  - benchmark-ips - Provides iteration per second benchmarking for Ruby
 
-    -activerecord-session_store,
-    -nested_form
+  - LicenseFinder - LicenseFinder works with your package managers to find dependencies, detect the licenses of the packages in them, compare those licenses against a user-defined whitelist, and give you an actionable exception report.
+
+  - activerecord-session_store,
+  - nested_form
 
 ## OAuth
-    -oauth2
+  - oauth2
 
-    -Soft deletion
-    -paranoia - https://rubygems.org/gems/paranoia - Paranoia is a re-implementation of acts_as_paranoid for Rails 3, using much, much, much less code. You would use either plugin / gem if you wished that when you called destroy on an Active Record object that it didn't actually destroy it, but just "hid" the record. Paranoia does this by setting a deleted_at field to the current time when you destroy a record, and hides it by scoping all queries on your model to only include records which do not have a deleted_at field.
+  - Soft deletion
+  - paranoia - https://rubygems.org/gems/paranoia - Paranoia is a re-implementation of acts_as_paranoid for Rails 3, using much, much, much less code. You would use either plugin / gem if you wished that when you called destroy on an Active Record object that it didn't actually destroy it, but just "hid" the record. Paranoia does this by setting a deleted_at field to the current time when you destroy a record, and hides it by scoping all queries on your model to only include records which do not have a deleted_at field.
 
-
-
-    -health_check - Simple health check of Rails app for use with uptime.openacs.org or wasitup.com
+  - health_check - Simple health check of Rails app for use with uptime.openacs.org or wasitup.com
 
 
 
